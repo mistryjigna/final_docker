@@ -19,7 +19,7 @@ pipeline {
 	  
    // Build Java application
 	  
-    stage('Maven Build') {
+    stage('Maven 3.9.2') {
       steps {
         sh 'mvn clean install'
       }
