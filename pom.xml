@@ -43,7 +43,7 @@
 		<plugin>
 		    <groupId>org.apache.maven.plugins</groupId>
 		    <artifactId>maven-resources-plugin</artifactId>
-		    <version>3.2.6</version>
+		    <version>3.2.9</version>
 		    <configuration>
 		        <propertiesEncoding>UTF-8</propertiesEncoding>
 		        <nonFilteredFileExtensions>
