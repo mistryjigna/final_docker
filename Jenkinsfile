@@ -18,9 +18,9 @@ pipeline {
     }
 	  
    // Build Java application
-tools { 
-        maven 'Maven 3.9.2' 
-    }
+//tools { 
+//        maven 'Maven 3.9.2' 
+//    }
     stages {
         stage ('Initialize') {
             steps {
