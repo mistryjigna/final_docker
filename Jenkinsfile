@@ -21,7 +21,7 @@ pipeline {
 //tools { 
 //        maven 'Maven 3.9.2' 
 //    }
-    stages {
+   // stages {
         stage ('Initialize') {
             steps {
                 sh '''
