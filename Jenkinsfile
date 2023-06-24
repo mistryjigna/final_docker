@@ -50,7 +50,7 @@ pipeline {
 	  
   // Test Java application
 	  
-    stage('Maven Test') {
+    stage('Maven 3.9.2 Test') {
       steps {
         sh 'mvn test'
       }
