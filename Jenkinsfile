@@ -18,11 +18,26 @@ pipeline {
     }
 	  
    // Build Java application
+tools { 
+        maven 'Maven 3.9.2' 
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                ''' 
+            }
+        }
+    }
+//
 	  
-    stage('Maven 3.9.2') {
-      steps {
-        sh 'mvn clean install'
-      }
+	  
+   // stage('Maven 3.9.2') {
+     // steps {
+       // sh 'mvn clean install'
+      //}
 	    
      // Post building archive Java application
 	    
